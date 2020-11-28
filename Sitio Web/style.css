@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/* inicio del codigo del menu en la presentasion css*/
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.menu{
+	float: left;
+}
+
+.menu a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background-color: #111;
+}
+/* final del codigo del menu en la presentasion css*/
+
+body{
+	font-family: 'Montserrat', sans-serif;	/* Tipografia Goldman de Google Fonts*/
+	background-image: url("gaming.jpg");
+	color: white;
+	background-attachment: fixed; /*Etiqueta para poder colocar el fondo estatico*/
+}
+p{
+	margin: 5%;
+}
+
+#cuerpo{
+	background-color: #070606;
+	margin: 5%;
+}
+
+#imagen1{
+	margin: 10px; /*Margen de 10 pixeles para separar un poco del borde*/
+}
+
+#contenedor{
+	text-align: center; /* colocar el menu de abajo en el centro */
+}
+
+.imagenes{
+	display: inline-block;/* etiqueta para poder alinear el div de la imagenes horizontalmente */
+}
+
+#imagen_a{
+	margin: 10px;
+}
